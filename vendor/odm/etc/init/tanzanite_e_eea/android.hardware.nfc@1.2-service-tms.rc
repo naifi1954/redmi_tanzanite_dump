@@ -1,0 +1,5 @@
+service nfc_hal_service.tms /vendor/bin/hw/android.hardware.nfc@1.2-service-tms
+    interface vendor.tms.tmsnfc@1.0::ITmsNfc default
+    class hal
+    user nfc
+    group nfc
