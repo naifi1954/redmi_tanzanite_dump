@@ -1,0 +1,12 @@
+reset 0
+reset 1
+interval 150
+
+# core_reset_ntf
+trigger 6000
+# core_reset_rsp
+trigger 40000100
+# core reset
+send 20000101
+
+reset 1
