@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <string-array name="allow_install_third_apps">
+            <item>com.facebook.katana</item>
+        </string-array>
+        <string name="config_facebook_partnerid">vodafone:467ff1b4-cd51-4a99-b4ba-d93fc1ba508b</string>
+    </cust_feature>
+</cust_features>

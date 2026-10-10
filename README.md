@@ -1,0 +1,20 @@
+## missi-user 15 AP3A.240905.015.A2 OS2.0.210.0.VOGMIXM release-keys
+- Manufacturer: xiaomi
+- Platform: mt6789
+- Codename: tanzanite
+- Brand: Redmi
+- Flavor: missi-user
+- Release Version: 15
+- Kernel Version: 5.10.236
+- Id: AP3A.240905.015.A2
+- Incremental: OS2.0.210.0.VOGMIXM
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Treble Device: true
+- Locale: en-GB
+- Screen Density: 480
+- Fingerprint: Redmi/tanzanite/tanzanite:12/SP1A.210812.016/OS2.0.210.0.VOGMIXM:user/release-keys
+- OTA version: 
+- Branch: missi-user-15-AP3A.240905.015.A2-OS2.0.210.0.VOGMIXM-release-keys
+- Repo: redmi_tanzanite_dump

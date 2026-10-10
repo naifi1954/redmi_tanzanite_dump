@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<permissions>
+    <!-- CalendarGoogle -->
+     <privapp-permissions package="com.google.android.calendar">
+         <permission name="android.permission.INTERACT_ACROSS_PROFILES"/>
+     </privapp-permissions>
+</permissions>
