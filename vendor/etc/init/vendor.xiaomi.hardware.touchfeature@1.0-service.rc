@@ -1,0 +1,24 @@
+# Copyright (c) 2017 Xiaomi, Inc.
+# All Rights Reserved.
+# Confidential and Proprietary - Xiaomi, Inc.
+#
+on boot
+    chown system system /dev/xiaomi-touch
+    chmod 0664 /dev/xiaomi-touch
+    chown system system /sys/class/touch/tp_dev/fod_status
+    chmod 0664 /sys/class/touch/tp_dev/fod_status
+
+service touchfeature-hal-1-0 /vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service
+    class main
+    user system
+    group system system
+    onrestart restart touchfeature-hal-1-0
+
+# O6 code for HQ-391935 by p-liaoxianguo at 2024/07/29 start
+service panel-info-sh  /system/vendor/bin/sh /vendor/etc/init.panel_info.sh
+    class core
+    user root
+    oneshot
+    group root system
+    seclabel u:r:vendor_touch_init_shell:s0
+# O6 code for HQ-391935 by p-liaoxianguo at 2024/07/29 end
