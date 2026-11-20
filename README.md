@@ -1,0 +1,20 @@
+## missi-user 16 BP2A.250605.031.A3 OS3.0.305.0.WOGMIXM release-keys
+- Manufacturer: xiaomi
+- Platform: mt6789
+- Codename: tanzanite
+- Brand: Redmi
+- Flavor: missi-user
+- Release Version: 16
+- Kernel Version: 
+- Id: BP2A.250605.031.A3
+- Incremental: OS3.0.305.0.WOGMIXM
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Treble Device: true
+- Locale: en-GB
+- Screen Density: 480
+- Fingerprint: Redmi/miodm_tanzanite/tanzanite:16/BP2A.250605.031.A3/OS3.0.305.0.WOGMIXM:user/release-keys
+- OTA version: 
+- Branch: missi-user-16-BP2A.250605.031.A3-OS3.0.305.0.WOGMIXM-release-keys
+- Repo: redmi_tanzanite_dump

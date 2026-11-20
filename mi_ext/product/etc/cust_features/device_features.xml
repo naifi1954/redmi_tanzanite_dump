@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <bool name="thermal_new_scenario_enabled">false</bool>
+        <bool name="provision_is_not_support_inter_connectivity">true</bool>
+        <string-array name="miui_mtk_perf_boost_config">
+            <item>0x00400000</item>
+            <item>2000000</item>
+            <item>0x00400100</item>
+            <item>2200000</item>
+            <item>0x01000000</item>
+            <item>0</item>
+            <item>0x00c00000</item>
+            <item>0</item>
+            <item>0x10000700</item>
+            <item>16129</item>
+        </string-array>
+        <bool name="device_on_platform_mtk_4g">true</bool>
+        <bool name="turbosched_check_is_special_topology">true</bool>
+        <bool name="input_scroller_optimization_normal_support">true</bool>
+    </cust_feature>
+</cust_features>
